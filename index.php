@@ -9,7 +9,7 @@
         <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Alpha Revolution Technology</title>
-        <meta name="description" content="">
+        <meta name="description" content="We provide consultation services, products, systems, technologies, and solutions!">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
 		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -35,32 +35,6 @@
     	background: url(img/loader.gif) center no-repeat #fff;
     }
 
-    .map-info-window{
-   background:#333;
-   border-radius:4px;
-   box-shadow:8px 8px 16px #222;
-   color:#fff;
-   max-width:200px;
-   max-height:300px;
-   text-align:center;
-   padding:5px 20px 10px;
-   overflow:hidden;
-   position:absolute;
-   text-transform:uppercase;
-}
-.map-info-window .map-info-close{
-   float:right;
-   cursor:pointer;
-   margin-right:-5px;
-   margin-left:5px;
-}
-
-.map-info-window h5{
-   font-weight:bold;
-}
-.map-info-window p{
-   color:#939393;
-}
     </style>
 
     </head>
@@ -81,11 +55,11 @@
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li><a href="#header">Home</a></li>
-            <li><a href="#section-services">Services</a></li>
-						<li><a href="#section-about">About</a></li>
+						<li><a href="#header">About</a></li>
+						<li><a href="#section-about">Team</a></li>
 						<li><a href="#section-works">Portfolio</a></li>
-						<li><a href="#section-contact">Contact</a></li>
+            <li><a href="#last-sec">Services</a></li>
+            <li><a href="#section-contact">Contact</a></li>
 					</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
@@ -96,12 +70,10 @@
 				<div class="row mar-bot40">
 					<div class="col-md-6 col-md-offset-3">
 
-						<div class="align-center">
+						<div class="align-center txt-shadow">
 							<i class="fa fa-hand-peace-o fa-5x mar-bot20"></i>
-							<h2 class="slogan">Welcome to ART</h2>
-							<p>
-							Alpha Revolution Technology was established in 2017. We are a pure local and Bumiputera Company, our nature of business on the Information Technology and Civil Engineering.
-							</p>
+							<h2 class="slogan">Welcome to <abbr title="Alpha Revolution Technology">ART</abbr></h2>
+							<p><h4 style="color:white;">Alpha Revolution Technology was established in 2017. We are a pure local and Bumiputera Company, our nature of business on the Information Technology and Civil Engineering.</h4></p>
 						</div>
 					</div>
 				</div>
@@ -109,17 +81,25 @@
 		</section>
 
 		<!-- services -->
-		<section id="section-services" class="section appear pad-bot30 bg-white">
+		<section id="section-services" class="section pad-bot30 bg-white">
 		<div class="container">
+      <div class="row mar-bot40">
+        <div class="col-lg-12" >
+          <p>Our service covered from consultation, planning, infrastructure, security, development, supply of equipment or peripheral, Internet of thing (IoT), civil works and other computer related requirement. We had innovative research and development team able to delivered solution.</p>
+          <p>We mainly focus in recent years has been in ‘Specialized Imaging/Video’ specifically for CCTV Surveillance System.  We have been very successful with our Proof of Concept (POC) efforts in this area for Malaysian applications specifically with CCTV Surveillance System.</p>
+          <p>Since we added new team in our Alpha Revolution Technology new portfolio and expertise are on the Data integration from multiple corporate sources into one stop solution center and civil engineering consultation and construction.</p>
 
+        </div>
+      </div>
+      <div class="row mar-bot40"><div class="col-lg-2" ></div><div class="col-lg-8" ><hr style="style14"></div><div class="col-lg-2" ></div></div>
 			<div class="row mar-bot40">
 				<div class="col-lg-4" >
 					<div class="align-center">
 						<i class="fa fa-cubes fa-5x mar-bot20"></i>
-						<h4 class="text-bold">IT Solutions</h4>
-						<p>ICT (Information and Communication Technology). We provide consultation services, products, systems, technologies, and solutions.
+						<h4 class="text-bold"><abbr title="Information and Communication Technology">ICT</abbr> Solutions</h4>
+						<p>We provide consultation services, products, systems, technologies, and solutions.
 						</p>
-            <p>Hosting services for web and mobile, IT infrastructure and supply, IOT services devices and peripherals and Civil and Electronic Supply and works.</p>
+            <p>Hosting services for web and mobile, IT infrastructure and supply, <abbr title="Internet of Things">IOT</abbr> services devices and peripherals and Civil and Electronic Supply and works.</p>
 					</div>
 				</div>
 
@@ -152,7 +132,7 @@
 		<div class="container">
 			<div class="row">
 					<div class="col-lg-12">
-							<div class="align-center">
+							<div class="align-center txt-shadow">
 										<div class="testimonial pad-top40 pad-bot40 clearfix">
                       <blockquote class="bigquote color-white">People</blockquote>
 											<h5>
@@ -399,29 +379,29 @@
       <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="align-center"><blockquote class="bigquote color-white">Products &amp; Services</blockquote></div>
+                <div class="align-center"><blockquote class="bigquote color-white txt-shadow">Products &amp; Services</blockquote></div>
             </div>
         </div>
         <div class="row mar-bot40">
           <div class="col-lg-1"></div>
           <div class="col-lg-5">
-              <div class="align-left">
+              <div class="align-left txt-shadow">
                 <p class="color-white">
                     Supply Product
                     <ul class="color-white">
-                      <li>CCTV camera and equipment</li>
+                      <li><abbr title="Closed Circuit Telivision">CCTV</abbr> camera and equipment</li>
                       <li>Panasonic Toughbook Series</li>
                       <li>Servers and IT peripheral</li>
                       <li>Desktop &amp; Laptop Computer</li>
                       <li>Telemetry data logger</li>
-                      <li>SCADA System</li>
+                      <li><abbr title="Supervisory Control And Data Acquisition">SCADA</abbr> System</li>
                     </ul>
 
                 </p>
               </div>
           </div>
           <div class="col-lg-5">
-              <div class="align-left">
+              <div class="align-left txt-shadow">
                 <p class="color-white">
                   Service and Consultation
                   <ul class="color-white">
@@ -434,7 +414,7 @@
                     <li>CCTV and Equipment</li>
                     <li>Sales after service</li>
                     <li>E-commerce Software-online store management System</li>
-                    <li>Network and ISP Specialized Software Installation and Configuration Service.</li>
+                    <li>Network and <abbr title="Internet Service Provider">ISP</abbr> Specialized Software Installation and Configuration Service.</li>
                     <li>Customized E-commerce site development.</li>
                   </ul>
                 </p>
