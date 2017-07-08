@@ -34,6 +34,33 @@
     	z-index: 9999;
     	background: url(img/loader.gif) center no-repeat #fff;
     }
+
+    .map-info-window{
+   background:#333;
+   border-radius:4px;
+   box-shadow:8px 8px 16px #222;
+   color:#fff;
+   max-width:200px;
+   max-height:300px;
+   text-align:center;
+   padding:5px 20px 10px;
+   overflow:hidden;
+   position:absolute;
+   text-transform:uppercase;
+}
+.map-info-window .map-info-close{
+   float:right;
+   cursor:pointer;
+   margin-right:-5px;
+   margin-left:5px;
+}
+
+.map-info-window h5{
+   font-weight:bold;
+}
+.map-info-window p{
+   color:#939393;
+}
     </style>
 
     </head>
@@ -489,7 +516,6 @@
                     </ul>
 				</div>
 			</div>
-
 			<div class="row align-center copyright">
 					<div class="col-sm-12"><p>&copy; <?php echo date("Y"); ?> Alpha Revolution Technology</p></div>
 			</div>
@@ -501,8 +527,7 @@
 	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script> -->
+  <script src="js/bootstrap.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo(GAPI); ?>"></script>
 	<script src="js/jquery.isotope.min.js"></script>
 	<script src="js/jquery.nicescroll.min.js"></script>
@@ -510,6 +535,7 @@
 	<script src="js/skrollr.min.js"></script>
 	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
 	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+  <!-- <script src="js/customwindow.jquery.js"></script> -->
 	<script src="js/stellar.js"></script>
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/validate.js"></script>
@@ -522,10 +548,10 @@
         });
             // When the window has finished loading create our google map below
             // google.maps.event.addDomListener(window, 'load', init);
-
             function init() {
                 // Basic options for a simple Google Map
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var lokasi = new google.maps.LatLng(3.0246535,101.5892831); // Taman Industri Subang
                 var mapOptions = {
                     scrollwheel: false,
                     disableDefaultUI: true, // a way to quickly hide all controls
@@ -538,7 +564,7 @@
                     // How zoomed in you want the map to start at (always required)
                     zoom: 16,
                     // The latitude and longitude to center the map (always required)
-		                center: new google.maps.LatLng(3.0426086,101.6159867), // Pelita Puchong
+		                center: lokasi,
                     // How you would like to style the map.
                     // This is where you would paste any style found on Snazzy Maps.
                     styles: [	{		featureType:"all",		elementType:"all",		stylers:[		{			invert_lightness:true		},		{			saturation:10		},		{			lightness:30		},		{			gamma:0.5		},		{			hue:"#00A2E8"		}		]	}	]
@@ -550,6 +576,16 @@
 
                 // Create the Google Map using out element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
+                var marker = new google.maps.Marker({
+                  position: lokasi,
+                  map: map,
+                  icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+                });
+                var ARTAddress = '<address><strong>Alpha Revolution Technology (002669431-P)</strong><br>No. 24, Jalan TS6,<br>Taman Industri Subang,<br>47510 Subang Jaya,<br>Selangor Darul Ehsan</address>';
+                var infowindow = new google.maps.InfoWindow();
+                // infoWindow.setStyle("background-color: red");
+                infowindow.setContent(ARTAddress);
+                infowindow.open(map, marker);
             }
         </script>
 	</body>
