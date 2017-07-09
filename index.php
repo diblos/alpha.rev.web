@@ -389,8 +389,8 @@
                 <p class="color-white">
                     Supply Product
                     <ul class="color-white">
-                      <li><abbr title="Closed Circuit Telivision">CCTV</abbr> camera and equipment</li>
-                      <li>Panasonic Toughbook Series</li>
+                      <!-- <li><abbr title="Closed Circuit Telivision">CCTV</abbr> camera and equipment</li>
+                      <li>Panasonic Toughbook Series</li> -->
                       <li>Servers and <abbr title="Information Technology">IT</abbr> peripheral</li>
                       <li>Desktop &amp; Laptop Computer</li>
                       <li>Telemetry data logger</li>
