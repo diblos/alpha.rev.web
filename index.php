@@ -86,7 +86,7 @@
       <div class="row mar-bot40">
         <div class="col-lg-12" >
           <p>Our service covered from consultation, planning, infrastructure, security, development, supply of equipment or peripheral, Internet of thing (IoT), civil works and other computer related requirement. We had innovative research and development team able to delivered solution.</p>
-          <p>We mainly focus in recent years has been in ‘Specialized Imaging/Video’ specifically for CCTV Surveillance System.  We have been very successful with our Proof of Concept (POC) efforts in this area for Malaysian applications specifically with CCTV Surveillance System.</p>
+          <p>We mainly focus in recent years has been in ‘Specialized Imaging/Video’ specifically for <abbr title="CLosed Cicuit Television">CCTV</abbr> Surveillance System.  We have been very successful with our Proof of Concept (POC) efforts in this area for Malaysian applications specifically with <abbr title="Closed Ciruit Television">CCTV</abbr> Surveillance System.</p>
           <p>Since we added new team in our Alpha Revolution Technology new portfolio and expertise are on the Data integration from multiple corporate sources into one stop solution center and civil engineering consultation and construction.</p>
 
         </div>
@@ -99,7 +99,7 @@
 						<h4 class="text-bold"><abbr title="Information and Communication Technology">ICT</abbr> Solutions</h4>
 						<p>We provide consultation services, products, systems, technologies, and solutions.
 						</p>
-            <p>Hosting services for web and mobile, IT infrastructure and supply, <abbr title="Internet of Things">IOT</abbr> services devices and peripherals and Civil and Electronic Supply and works.</p>
+            <p>Hosting services for web and mobile, <abbr title="Information Technology">IT</abbr> infrastructure and supply, <abbr title="Internet of Things">IOT</abbr> services devices and peripherals and Civil and Electronic Supply and works.</p>
 					</div>
 				</div>
 
@@ -117,7 +117,7 @@
 					<div class="align-center">
 						<i class="fa fa-hand-lizard-o fa-5x mar-bot20"></i>
 						<h4 class="text-bold">Data Analytical &amp; Processing</h4>
-						<p>‘Specialized Imaging / Video’ specifically for CCTV Surveillance System and Video Analytical</p>
+						<p>‘Specialized Imaging / Video’ specifically for <abbr title="Closed Circuit Television">CCTV</abbr> Surveillance System and Video Analytical</p>
             <p>Data Retrieval, Data Processing and Data Presentation in the ‘Water Engineering Services’ segment including Software Development, Data Processing &amp; Analytics</p>
 					</div>
 				</div>
@@ -375,7 +375,7 @@
 
 			</div>
 		</section>
-		<section id="last-sec" class="section parallax" data-stellar-background-ratio="0.5">
+		<section id="last-sec" class="section appear parallax" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -391,7 +391,7 @@
                     <ul class="color-white">
                       <li><abbr title="Closed Circuit Telivision">CCTV</abbr> camera and equipment</li>
                       <li>Panasonic Toughbook Series</li>
-                      <li>Servers and IT peripheral</li>
+                      <li>Servers and <abbr title="Information Technology">IT</abbr> peripheral</li>
                       <li>Desktop &amp; Laptop Computer</li>
                       <li>Telemetry data logger</li>
                       <li><abbr title="Supervisory Control And Data Acquisition">SCADA</abbr> System</li>
@@ -411,7 +411,7 @@
                     <li>Computer Equipment and Software.</li>
                     <li>Civil &amp; Engineering Work</li>
                     <li>Application Development</li>
-                    <li>CCTV and Equipment</li>
+                    <li><abbr title="Closed Circuit Television">CCTV</abbr> and Equipment</li>
                     <li>Sales after service</li>
                     <li>E-commerce Software-online store management System</li>
                     <li>Network and <abbr title="Internet Service Provider">ISP</abbr> Specialized Software Installation and Configuration Service.</li>
@@ -467,7 +467,7 @@
 								<div class="validation"></div>
 							  </div>
 
-							  <button type="submit" class="btn btn-theme pull-left">SEND MESSAGE</button>
+							  <button type="submit" class="btn btn-theme pull-left">Send Message</button>
 							</form>
 
 						</div>
@@ -559,7 +559,7 @@
                 var marker = new google.maps.Marker({
                   position: lokasi,
                   map: map,
-                  icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+                  icon: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png'
                 });
                 var ARTAddress = '<address><strong>Alpha Revolution Technology (002669431-P)</strong><br>No. 24, Jalan TS6,<br>Taman Industri Subang,<br>47510 Subang Jaya,<br>Selangor Darul Ehsan</address>';
                 var infowindow = new google.maps.InfoWindow();
