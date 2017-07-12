@@ -34,7 +34,7 @@
     	z-index: 9999;
     	background: url(img/loader.gif) center no-repeat #fff;
     }
-
+    /*.gm-style-iw{width:500px}*/
     </style>
 
     </head>
@@ -561,9 +561,8 @@
                   map: map,
                   icon: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png'
                 });
-                var ARTAddress = '<address><strong>Alpha Revolution Technology (002669431-P)</strong><br>No. 24, Jalan TS6,<br>Taman Industri Subang,<br>47510 Subang Jaya,<br>Selangor Darul Ehsan</address>';
+                var ARTAddress = '<div class="row pad-top20" style="width:100%; overflow:hidden;" ><div class="col-sm-4 align-center pad-top10"><img src="img/alpha-logo-1.png" width="80"></img></div><div class="col-sm-8 align-left"><address><strong>Alpha Revolution Technology (002669431-P)</strong><br>No. 24, Jalan TS6,<br>Taman Industri Subang,<br>47510 Subang Jaya,<br>Selangor Darul Ehsan</address></div></div>';
                 var infowindow = new google.maps.InfoWindow();
-                // infoWindow.setStyle("background-color: red");
                 infowindow.setContent(ARTAddress);
                 infowindow.open(map, marker);
             }
