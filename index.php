@@ -467,7 +467,9 @@
 								<div class="validation"></div>
 							  </div>
 
-							  <button type="submit" class="btn btn-theme pull-left">Send Message</button>
+							  <!-- <button type="submit" class="btn btn-theme pull-left">Send Message</button> -->
+
+                <button class="g-recaptcha" data-sitekey="6LcP6ygUAAAAAKEGn6BNAcLobO9EbfZeZu9P5bI1" data-callback="onSubmit">Submit</button>
 							</form>
 
 						</div>
@@ -520,12 +522,18 @@
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/validate.js"></script>
     <script src="js/main.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
         <script type="text/javascript">
         $(window).load(function() {
           // Animate loader off screen
           $(".se-pre-con").fadeOut("slow");
           init();
         });
+
+            function onSubmit(token) {
+              $(".contactForm").submit();
+            }
+
             // When the window has finished loading create our google map below
             // google.maps.event.addDomListener(window, 'load', init);
             function init() {
