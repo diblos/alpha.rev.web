@@ -10,6 +10,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Alpha Revolution Technology</title>
         <meta name="description" content="We provide consultation services, products, systems, technologies, and solutions!">
+        <meta name="keywords" content="automatic vehicle locating systems,vehicle locating system,zigbee vs bluetooth,wireless technologies,industrial automation malaysia,avls malaysia,abb uk,home automation malaysia,rtu in malaysia,wireless technologies in malaysia,asia gps technologies,text erotic,erotic ascii,ascii art">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
 		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -71,8 +72,9 @@
 					<div class="col-md-6 col-md-offset-3">
 
 						<div class="align-center txt-shadow">
-							<i class="fa fa-hand-peace-o fa-5x mar-bot20"></i>
-							<h2 class="slogan">Welcome to <abbr title="Alpha Revolution Technology">ART</abbr></h2>
+							<i class="fa fa-hand-peace-o fa-5x mar-bot20" style="display:none"></i>
+							<!-- <h2 class="slogan">Welcome to <abbr title="Alpha Revolution Technology">ART</abbr></h2> -->
+              <h2 class="slogan color-white">Well-prepared, experienced experts</h2>
 							<p><h4 style="color:white;">Alpha Revolution Technology was established in 2017. We are a pure local and Bumiputera Company, our nature of business on the Information Technology and Civil Engineering.</h4></p>
 						</div>
 					</div>
@@ -115,7 +117,7 @@
 
         <div class="col-lg-4" >
 					<div class="align-center">
-						<i class="fa fa-hand-lizard-o fa-5x mar-bot20"></i>
+						<i class="fa fa-bar-chart fa-5x mar-bot20"></i>
 						<h4 class="text-bold">Data Analytical &amp; Processing</h4>
 						<p>‘Specialized Imaging / Video’ specifically for <abbr title="Closed Circuit Television">CCTV</abbr> Surveillance System and Video Analytical</p>
             <p>Data Retrieval, Data Processing and Data Presentation in the ‘Water Engineering Services’ segment including Software Development, Data Processing &amp; Analytics</p>
@@ -134,7 +136,7 @@
 					<div class="col-lg-12">
 							<div class="align-center txt-shadow">
 										<div class="testimonial pad-top40 pad-bot40 clearfix">
-                      <blockquote class="bigquote color-white">People</blockquote>
+                      <h1 class="section-heading animated color-white txt-bold">People</h1>
 											<h5>
 
                         <p>The Company is comprised of capable and dedicated staffs that are capable in their own field. The Company values its team as the main assets of the Company as they are also the stakeholders with equal interest in the Company’s well being.</p>
@@ -170,25 +172,25 @@
 				</div>
 
 					<div class="row align-center mar-bot40">
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="team-member">
 								<figure class="member-photo"><img src="img/team/huda.jpg" alt="" /></figure>
 								<div class="team-detail">
 									<h4>Nurhuda Marni</h4>
-									<span>Head of Operation</span>
+									<span>Head of Business Development &amp; Strategy</span>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="team-member">
 								<figure class="member-photo"><img src="img/team/fizal.jpg" alt="" /></figure>
 								<div class="team-detail">
 									<h4>Mohd Hafizal Abu Talip</h4>
-									<span>Technical Manager</span>
+									<span>Technical, Contract &amp; Bidding Manager</span>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<!-- <div class="col-md-4">
 							<div class="team-member">
 								<figure class="member-photo"><img src="img/team/zahlan.jpg" alt="" /></figure>
 								<div class="team-detail">
@@ -196,7 +198,7 @@
 									<span>Head of Technical</span>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<!-- <div class="col-md-3">
 							<div class="team-member">
 								<figure class="member-photo"><img src="img/team/member4.jpg" alt="" /></figure>
@@ -216,7 +218,7 @@
 		<section id="parallax1" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
 			<div class="container">
             <div class="align-center pad-top40 pad-bot40">
-                <blockquote class="bigquote color-white">Mission Statements</blockquote>
+                <h1 class="section-heading animated color-white txt-bold">Mission Statements</h1>
 
                 <p class="color-white">The Company aspires and committed to delivering value services to its Customers by emphasizing Professionalism in its business operations, thus to exceed the expectation of the Customers through continuous improvement in it’s business process.</p>
 
@@ -379,7 +381,7 @@
       <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="align-center"><blockquote class="bigquote color-white txt-shadow">Products &amp; Services</blockquote></div>
+                <div class="align-center"><h1 class="section-heading animated color-white txt-bold txt-shadow">Products &amp; Services</h1></div>
             </div>
         </div>
         <div class="row mar-bot40">
@@ -389,6 +391,7 @@
                 <p class="color-white">
                     Supply Product
                     <ul class="color-white">
+                      <!-- <li><a href="iwater.php">iWater: <abbr title="Non revenue water">NRW</abbr> Management Software</a></li> -->
                       <!-- <li><abbr title="Closed Circuit Telivision">CCTV</abbr> camera and equipment</li>
                       <li>Panasonic Toughbook Series</li> -->
                       <li>Servers and <abbr title="Information Technology">IT</abbr> peripheral</li>
@@ -469,7 +472,7 @@
 
 							  <!-- <button type="submit" class="btn btn-theme pull-left">Send Message</button> -->
 
-                <button class="g-recaptcha" data-sitekey="6LcP6ygUAAAAAKEGn6BNAcLobO9EbfZeZu9P5bI1" data-callback="onSubmit">Submit</button>
+                <button class="g-recaptcha btn btn-theme" data-sitekey="6LcP6ygUAAAAAKEGn6BNAcLobO9EbfZeZu9P5bI1" data-callback="onSubmit">Submit</button>
 							</form>
 
 						</div>
